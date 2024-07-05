@@ -4,6 +4,8 @@
 
 This Project is a Webpage for Pics sharing.
 
+The links were uptaded and shared.
+
 [Deployment Link](https://raul-martins.github.io/se_project_spots/)
 
 [Video attempt 1](https://drive.google.com/file/d/1Sm-91Kyi7FTAxsZrCVEZLfkJCsFkspEo/view?usp=drive_link)
