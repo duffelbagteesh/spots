@@ -11,5 +11,3 @@ The links were uptaded and shared.
 [Video attempt 1](https://drive.google.com/file/d/1Sm-91Kyi7FTAxsZrCVEZLfkJCsFkspEo/view?usp=drive_link)
 
 [Video Attempt 2](https://drive.google.com/file/d/1GWg7h9vOVh5IbtfNhGs-KVwr-jmwiTMD/view?usp=drive_link)
-
-Hey reviewer, how are you doing? I did all the corrections that you ask me to, but the last picture (Val Thorens), didnt show up. Whats wrong? Thank You
