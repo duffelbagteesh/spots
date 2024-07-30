@@ -12,6 +12,22 @@
   justify-content: space-between;
 }
 
+.delete__button {
+  background-image: url(../images/delete_button.svg);
+  width: 32px;
+  height: 32px;
+  border: none;
+  background-color: rgba(0, 0, 0, 0);
+  cursor: pointer;
+  position: relative;
+  top: 40px;
+  right: -371px;
+}
+
+.delete__button:hover {
+  background-image: url(../images/delete_hover_button.svg);
+}
+
 .card__title {
   margin: 12px 0 0;
   font-weight: 500;

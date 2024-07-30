@@ -134,14 +134,3 @@ initialCards.forEach((item) => {
   const cardElement = getCardElement(item);
   cardsList.append(cardElement);
 });
-
-// document.addEventListener("DOMContentLoaded", () => {
-//   const cardModal = document.querySelector("#add-card-modal");
-//   const cardForm = cardModal.querySelector(".modal__form");
-//   console.log(cardForm); // Check if cardForm is selected correctly
-
-//   // Add the event listener if cardForm is non-null
-//   if (cardForm) {
-//     cardForm.addEventListener("submit", handleAddCardSubmit);
-//   }
-// });
