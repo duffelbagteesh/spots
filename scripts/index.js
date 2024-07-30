@@ -100,10 +100,14 @@ function handleAddCardSubmit(evt) {
   evt.preventDefault();
   console.log(cardNameInput.value);
   console.log(cardLinkInput.value);
-  const inputValues = {};
+  const inputValues = {
+    name: cardNameInput.value,
+    link: cardLinkInput.value,
+  };
   const cardElement = getCardElement(inputValues);
-  cardsList.append(cardElement);
-  closeModal(editModal);
+  cardsList.prepend(cardElement);
+  evt.target.reset();
+  closeModal(cardModal);
 }
 
 profileEditButton.addEventListener("click", () => {
@@ -131,13 +135,13 @@ initialCards.forEach((item) => {
   cardsList.append(cardElement);
 });
 
-document.addEventListener("DOMContentLoaded", () => {
-  const cardModal = document.querySelector("#add-card-modal");
-  const cardForm = cardModal.querySelector(".modal__form");
-  console.log(cardForm); // Check if cardForm is selected correctly
+// document.addEventListener("DOMContentLoaded", () => {
+//   const cardModal = document.querySelector("#add-card-modal");
+//   const cardForm = cardModal.querySelector(".modal__form");
+//   console.log(cardForm); // Check if cardForm is selected correctly
 
-  // Add the event listener if cardForm is non-null
-  if (cardForm) {
-    cardForm.addEventListener("submit", handleAddCardSubmit);
-  }
-});
+//   // Add the event listener if cardForm is non-null
+//   if (cardForm) {
+//     cardForm.addEventListener("submit", handleAddCardSubmit);
+//   }
+// });
