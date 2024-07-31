@@ -12,7 +12,7 @@
   justify-content: space-between;
 }
 
-.delete__button {
+.card__delete-button {
   background-image: url(../images/delete_button.svg);
   width: 32px;
   height: 32px;
@@ -24,7 +24,7 @@
   right: -371px;
 }
 
-.delete__button:hover {
+.card__delete-button:hover {
   background-image: url(../images/delete_hover_button.svg);
 }
 
