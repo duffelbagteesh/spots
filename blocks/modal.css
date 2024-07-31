@@ -31,11 +31,15 @@
   padding: 0;
   background-color: rgba(0, 0, 0, 0);
   border-radius: 8px;
+  max-width: 50vw;
+  max-width: 50hv;
 }
 
 .modal__image {
   width: 100%;
   border-radius: 8px;
+  max-height: 80vh;
+  object-fit: contain;
 }
 
 .modal__close-btn {
@@ -60,6 +64,7 @@
 }
 
 .modal__caption {
+  margin: 0;
   width: 135px;
   height: 32px;
   background-color: #000;
