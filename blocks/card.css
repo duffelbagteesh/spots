@@ -12,6 +12,10 @@
   justify-content: space-between;
 }
 
+.card { /* Add this line to make parent 'relative' so that below 'position works */
+  position: relative; 
+}
+
 .card__delete-button {
   background-image: url(../images/delete_button.svg);
   width: 32px;
@@ -19,9 +23,9 @@
   border: none;
   background-color: rgba(0, 0, 0, 0);
   cursor: pointer;
-  position: relative;
-  top: 40px;
-  right: -371px;
+  position: absolute; /* Change this from 'relative' to 'absolute' */
+  top: 10px;
+  right: 10px;
 }
 
 .card__delete-button:hover {
